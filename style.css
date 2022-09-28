@@ -1,0 +1,256 @@
+body{
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0%;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+.ProfileContainer{
+    width: 800px;
+    height: 170px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px;
+    /* text-shadow: 5px 5px 5px black; */
+}
+
+.profileImage{
+    float: left;
+    margin: auto;
+    margin-left: -20px;
+    margin-top: -15px;
+    width: 120px;
+    height: 120px;
+    border: 3px solid #000000;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.ProfileName{
+    width: 200px;
+    height: auto;
+    font-weight: 100;
+    font-size: 200%;
+    float: left;
+    margin: auto;
+    padding-left: 10px;
+}
+
+.ProfileIntro{
+    font-size: 15px;
+    text-align: justify;
+    float: left;
+    margin: auto;
+    padding-right: 35px;
+    padding-top: 20px;
+    width: 630px;
+}
+
+.call{
+    text-align: left;
+    vertical-align: middle;
+    margin: auto;
+    margin-top: -32px;
+    padding: 0%;
+    float: left;
+    font-size: medium;
+    width: 200px;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #8f0037;
+}
+
+.mail{
+    text-align: left;
+    vertical-align: middle;
+    margin: auto;
+    margin-top: -3px;
+    float: left;
+    font-size: medium;
+    width: 300px;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #8f0037;
+}
+
+
+.professionalId{
+    text-align: center;
+    vertical-align: middle;
+    width: 800px;
+    height: 50px;
+    margin: auto;
+    padding: 10px;
+}
+
+.leetcode, .linkedIn, .gitHub {
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    background-color: white;
+    float: initial;
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.secondContainer{
+    width: 860px;
+    height: 380px;
+    margin: auto;
+    margin-top: -20px;
+}
+
+.education{
+    width: 495px;
+    margin: 0%;
+}
+
+.softSkills{
+    width: 255px;
+    margin: 0%;
+}
+
+.softSkills, .education{
+    float: left;
+    padding: 15px;
+    margin: 10px;
+    height: 380px;
+}
+
+.progressBack{
+    border: 2px solid rgb(0, 0, 0);
+    float: right;
+}
+.progressBar{
+    margin: 0%;
+    float: left;
+    text-align: center;
+    font-size: smaller;
+}
+
+.progressBack, .progressBar{
+    height: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.ProgressLabel{
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.edu{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.thirdContainer{
+    width: 860px;
+    height: 450px;
+    margin: auto;
+    margin-top: 65px;
+}
+
+.languages{
+    float: left;
+    width: 255px;
+    margin-left: 10px;
+}
+
+.codingProjects{
+    float: right;
+    width: 495px;
+    margin-right: 10px;
+}
+
+.languages, .codingProjects{
+    height: 410px;
+    padding: 15px;
+}
+
+.linkImg{
+    width: 20px;
+    height: 20px;
+    margin-bottom: -4px;
+}
+
+.fourthContainer{
+    width: 830px;
+    height: 340px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+
+.workExperiance{
+    width: 495px;
+    float: left;
+    margin-left: -5px;
+}
+
+.keySkills{
+    width: 255px;
+    float: right;
+    margin-right: -5px;
+}
+
+.keySkills, .workExperiance{
+    height: 340px;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+h3{
+    font-family: Lobster Two, serif;
+    font-size: larger;
+}
+
+body{
+    /* background-color: #f9faf4; */
+    background: linear-gradient(135deg,#38eaff 0,#8616db 100%);
+
+}
+
+.softSkills{
+    /* background-color: #f9a66c; */
+    background: linear-gradient(300deg, #ff1ba8 0, #5900be 100%);
+    color: white;
+}
+
+.progressBack{
+    background-color: #4a6163;
+}
+
+.progressBar{
+    background-color: #ffc94b;
+    color: black;
+}
+
+.workExperiance, .education{
+    /* background-color: #f17a7e; */
+    background: linear-gradient(300deg, #2fff6d 0, #387eff 100%);
+}
+
+.codingProjects, .ProfileContainer{
+    /* background-color: #4a6163; */
+    background: linear-gradient(100deg, #b480df 0, #6cb1da 100%);
+    color: black;
+}
+
+.languages, .keySkills{
+    /* background-color: #FFc948; */
+    background: linear-gradient(150deg, #4afff0 0, #ff3edf 100%);
+}
+
+.ProfileContainer, .education, .softSkills, .languages, .codingProjects, .workExperiance, .keySkills{
+    /* border: 2px solid white; */
+    border-radius: 15px;
+    border: 2px solid rgb(255, 255, 255);
+}
