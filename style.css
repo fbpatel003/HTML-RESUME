@@ -1,0 +1,243 @@
+body{
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0%;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+.ProfileContainer{
+    background-color: #63bce5;
+    width: 800px;
+    height: 170px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px;
+}
+
+.profileImage{
+    float: left;
+    margin: auto;
+    margin-left: -20px;
+    margin-top: -15px;
+    width: 120px;
+    height: 120px;
+    border: 3px solid #f9a66c;
+    border-radius: 25%;
+    padding: 5px;
+}
+
+.ProfileName{
+    width: 200px;
+    height: auto;
+    font-family: serif;
+    color: #f9a66c;
+    float: left;
+    margin: auto;
+    padding-left: 10px;
+}
+
+.ProfileIntro{
+    color: #ffc94b;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    text-align: justify;
+    float: left;
+    margin: auto;
+    padding-right: 35px;
+    padding-top: 20px;
+    width: 630px;
+}
+
+.call{
+    text-align: left;
+    vertical-align: middle;
+    margin: auto;
+    margin-top: -35px;
+    padding: 0%;
+    float: left;
+    font-size: medium;
+    width: 200px;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+}
+
+.mail{
+    text-align: left;
+    vertical-align: middle;
+    margin: auto;
+    margin-top: -5px;
+    float: left;
+    font-size: medium;
+    width: 300px;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+}
+
+
+.professionalId{
+    text-align: center;
+    vertical-align: middle;
+    width: 800px;
+    height: 50px;
+    margin: auto;
+    padding: 10px;
+}
+
+.leetcode, .linkedIn, .gitHub {
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    background-color: white;
+    float: initial;
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.secondContainer{
+    width: 850px;
+    height: 380px;
+    margin: auto;
+    margin-top: -20px;
+}
+
+.education{
+    width: 495px;
+    margin: 0%;
+    background-color: #4B9FE1;
+}
+
+.softSkills{
+    width: 255px;
+    margin: 0%;
+    background-color: #7ED5EA;
+}
+
+.softSkills, .education{
+    float: left;
+    padding: 15px;
+    margin: 10px;
+    height: 380px;
+}
+
+.progressBack{
+    border: 2px solid rgb(0, 0, 0);
+    float: right;
+}
+.progressBar{
+    margin: 0%;
+    float: left;
+    text-align: center;
+    font-size: smaller;
+}
+
+.progressBack, .progressBar{
+    height: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.ProgressLabel{
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.edu{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.thirdContainer{
+    width: 830px;
+    height: 410px;
+    margin: auto;
+    margin-top: 55px;
+}
+
+.languages{
+    float: left;
+    background-color: #FFc948;
+    width: 255px;
+}
+
+.codingProjects{
+    float: right;
+    background-color: #4a6163;
+    width: 495px;
+}
+
+.languages, .codingProjects{
+    height: 410px;
+    padding: 15px;
+}
+
+.linkImg{
+    width: 20px;
+    height: 20px;
+    margin-bottom: -4px;
+}
+
+.fourthContainer{
+    width: 830px;
+    height: 340px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.workExperiance{
+    width: 495px;
+    float: left;
+    background-color: #f17a7e;
+}
+
+.keySkills{
+    width: 255px;
+    float: right;
+    background-color: #FFc948;
+}
+
+.keySkills, .workExperiance{
+    height: 340px;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+h3{
+    font-family: Lobster Two, serif;
+    font-size: larger;
+}
+
+body{
+    background-color: #f9faf4;
+    /* background: linear-gradient(135deg,#38eaff 0,#b05af1 100%); */
+
+}
+
+.ProfileContainer{
+    background-color: #4a6163;
+}
+
+.softSkills{
+    background-color: #f9a66c;
+}
+
+.education{
+    background-color: #f17a7e;
+}
+
+.progressBack{
+    background-color: #4a6163;
+}
+
+.progressBar{
+    background-color: #ffc94b;
+}
